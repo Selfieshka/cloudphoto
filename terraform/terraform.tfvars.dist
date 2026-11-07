@@ -1,0 +1,5 @@
+folder_id   = "<folder_id>"
+bucket_name = "photos.vvotNN.itiscl.ru"
+domain      = "vvotNN.itiscl.ru"
+cert_id     = "<cert_id>"
+dns_zone_id = "<dns_zone_id>"
