@@ -1,0 +1,27 @@
+# Auto detect text files and perform LF normalization
+*        text=auto
+
+# Always perform LF normalization on these files
+*.kt     text
+*.kts    text
+*.gradle text
+*.tf     text
+*.md     text
+*.txt    text
+*.xml    text
+*.yaml   text
+*.yml    text
+/gradlew text eol=lf
+*.sh     text eol=lf
+
+# Make sure that these Windows files always have CRLF line endings in checkout
+*.bat    text eol=crlf
+*.ps1    text eol=crlf
+
+# Never perform LF normalization on these files
+*.jar    binary
+*.jpg    binary
+*.jpeg   binary
+*.png    binary
+*.ico    binary
+*.zip    binary

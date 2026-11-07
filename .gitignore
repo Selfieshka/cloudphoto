@@ -1,0 +1,47 @@
+### Java ###
+*.class
+*.log
+*.jar
+*.war
+*.zip
+*.tar.gz
+hs_err_pid*
+replay_pid*
+
+### Gradle ###
+.gradle
+**/build/
+!src/**/build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+.gradletasknamecache
+
+### IntelliJ IDEA ###
+.idea/**
+*.iws
+*.iml
+*.ipr
+out/
+
+### VS Code ###
+.vscode/
+
+### Windows ###
+Thumbs.db
+[Dd]esktop.ini
+
+.DS_Store
+
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+*.env
